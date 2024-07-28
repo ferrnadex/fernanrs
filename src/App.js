@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { Dropdown } from './Dropdown.js'
-import { Element } from './Element.js';
+import { Navbar } from './components/Navbar/navbar.js'
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi, Fernan here! I am currently working on this website. Sorry, I am not using AI. I am enjoying the coding time!
+          Hi, Fernan here! I am currently working on this website. <br /> Sorry, I am not using AI. I am enjoying the coding time!
         </p>
         <a
           className="App-link"
@@ -20,10 +20,7 @@ function App() {
         >
           LinkedIn @in/ferrnadex
         </a>
-      </header>
-
-      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="ferrnadex" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ferrnadex?trk=profile-badge">Fernan R.</a></div>
-              
+      </header>              
     </div>
   );
 }
