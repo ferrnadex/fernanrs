@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { Navbar } from './components/Navbar/navbar.js'
+import { Navbar } from './bavbar/navbar.js'
+import { ExpList } from './experience/exp.js'
 
 function App() {
   return (
@@ -20,7 +21,11 @@ function App() {
         >
           LinkedIn @in/ferrnadex
         </a>
-      </header>              
+
+        <ExpList />
+
+      </header>  
+               
     </div>
   );
 }

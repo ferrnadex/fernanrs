@@ -1,0 +1,5 @@
+p, ui, li {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}

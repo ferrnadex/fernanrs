@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background: url('./components/img/pexels-creationsbyfaik-1025469.jpg');
+  /*background: url('./components/img/pexels-creationsbyfaik-1025469.jpg');*/
+  background-color: #373636;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
